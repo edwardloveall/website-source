@@ -20,6 +20,9 @@ Executable site
   Build-Depends:        base
                       , hakyll == 4.7.*
                       , site
+                      , text
+                      , xml-conduit
+                      , blaze-markup
 
 Source-Repository head
   Type:                 git
